@@ -15,10 +15,21 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ABM_Task1\ABM_Task1.csproj" />
+    <ProjectReference Include="..\ABM_Task2\ABM_Task2.csproj" />
+    <ProjectReference Include="..\ABM_Task3\ABM_Task3.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="EmptyFile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="BadFile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="TestFile.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="XMLFile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

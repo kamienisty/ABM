@@ -1,6 +1,6 @@
 ﻿namespace ABM_Task1.Models
 {
-    public class LocSegments
+    public class LocSegmentsModel
     {
         public string FirstSegment;
         public string SecondSegment;
